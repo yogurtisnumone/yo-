@@ -261,7 +261,7 @@ public class Turn {
         } else if (p2.getBudget() > p1.getBudget()) {
             System.out.println(p2.getName() + " Wins! (More budget remaining)");
         } else {
-            System.out.println("Game ends in a tie!");
+            System.out.println("App ends in a tie!");
         }
     }
 }
